@@ -28,6 +28,10 @@ body{
       background: rgba(206, 187, 201, 0.3); 
 }
 
+		#jumbo2{
+      background: rgba(206, 187, 201, 0.5); 
+		}
+
 .img-thumbnail{
 
 }
@@ -43,4 +47,31 @@ img{
 .btn{
 	width:100%;
 	white-space:normal;
+}
+
+#asterisk{
+	color: red;
+	display: inline;
+}
+#name{
+	font-size: 2.9em;
+}
+
+#social{
+	font-size: 5em;
+}
+
+.socicon{
+	transition: 1s;
+}
+
+.socicon:hover{
+	transform: scale(1.5);
+}
+
+hr{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
