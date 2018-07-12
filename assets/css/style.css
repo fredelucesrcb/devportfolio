@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box ;
+}
+
+body{
+	background-image: url(../images/lightbg.jpg);\
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-position: center;
+	background-attachment: fixed; 
+}
+
+.navbar-default{
+  /*opacity: 0.5;*/
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+.jumbotron{
+      background: rgba(206, 187, 201, 0.3); 
+}
+
+.img-thumbnail{
+
+}
+
+img{
+	margin: 0 auto;
+}
+
+.carousel-inner > .carousel-item > img {
+    margin: 0 auto;
+}
+
+.btn{
+	width:100%;
+	white-space:normal;
+}
