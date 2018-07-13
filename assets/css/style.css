@@ -1,8 +1,27 @@
 *{
 	margin:0;
 	padding: 0;
-	box-sizing: border-box ;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
 }
+
+
+	/*Fonts*/
+		h1{
+			font-family: 'Neucha', cursive;
+		}
+		#h4text{
+			font-family: 'Shadows Into Light', cursive;
+		}
+		#foottext{
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 0.9em;
+		}
+		h4{
+			font-family: 'Julius Sans One', sans-serif;
+		}
+
+
 
 body{
 	background-image: url(../images/lightbg.jpg);\
@@ -69,9 +88,61 @@ img{
 	transform: scale(1.5);
 }
 
-hr{
+/*hr{
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-top: 8px;
 	margin-bottom: 8px;
+}*/
+
+/*.bg-secondary,
+.bg-light{
+	background-color: rgba(153, 153, 161, 0.5);
+
+}*/
+
+.small-jumbo{
+	padding: 15px 15px;
+	margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*breakpoints*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+#foottext{
+	float:none !important;
+	text-align: left !important;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+#foottext{
+	float:none;
+	text-align:left !important; 
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
