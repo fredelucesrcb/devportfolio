@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/projectsbackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center fixed;
@@ -17,66 +17,15 @@ html{
   overflow-x: hidden;
 }
 
-.progress{
-  transform: rotate(180deg);
-  background-color: rgb(189, 187, 182);
-  margin-bottom: 5px;
-}
-
-.progress-bar{
-  transform: rotate(180deg);
-}
-
-.line{
-  border-top: dotted 4px;
-
-}
-
 .socicon{
   font-size: 1.5em
 }
 
-#one{
-  font-family:'Vibur', cursive;
-}
-
-#one:hover{
-  color: rgb(121, 169, 209);
-  cursor: default;
-}
-
-
-#two{
-  font-family: 'Rock Salt', cursive;
-}
-
-#two:hover{
-  color: rgb(243, 202, 64);
-  cursor: default;
-}
-
-
-#three{
-  font-family: 'Nanum Pen Script', cursive;
-}
-
-#three:hover{
-  color: rgb(9, 232, 94);
-  cursor: default;
-}
-
-
-#four{
-  font-family: 'Permanent Marker', cursive;
-}
-
-#four:hover{
-  color: rgb(255, 0, 5);
-  cursor: default;
-}
-
-#jumbotron{
-  background-color: rgba(165, 174, 158, 0.7);
+#project1{
+	height: 350px;
+	width: 100%;
+	background-color: rgba(235, 240, 245,0.7);
+	color: white;
 }
 
 #facebook{
@@ -147,21 +96,4 @@ html{
 
 .socicon > a{
   text-decoration: none;
-}
-
-
-
-
-
-
-
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-  #two{
-    font-size: 1em
-  }
-
-  #four{
-    font-size: 2em
-  }
 }
